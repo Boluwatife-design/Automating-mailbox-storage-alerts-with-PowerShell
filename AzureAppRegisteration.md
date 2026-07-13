@@ -38,19 +38,21 @@ tab.
 <img width="1705" height="512" alt="Screenshot 2026-07-08 102635" src="https://github.com/user-attachments/assets/593411cf-feff-4441-a007-688bb814c1a6" />
 <img width="1220" height="844" alt="Screenshot 2026-07-08 102724" src="https://github.com/user-attachments/assets/4d5f69ba-ed31-4fea-bede-3a560641cc2b" />
 
-
-
-4. Grant admin consent
-Back on the API permissions page, click Grant admin consent for
+# 4. Grant admin consent
+- Back on the API permissions page, click Grant admin consent for
 [Your Org] and confirm. Both permissions should show a green checkmark under
 Status once granted.
-5. Assign the Exchange Administrator role
+
+<img width="1460" height="887" alt="Screenshot 2026-07-08 114934" src="https://github.com/user-attachments/assets/872a3c71-c5bb-4140-a9ef-48c777cae1cc" />
+
+
+# 5. Assign the Exchange Administrator role
 `Exchange.ManageAsApp` alone only grants the ability to call
 Exchange-management APIs as an app - it still needs an actual role assigned to
 work against mailboxes:
-Go to Entra ID > Roles and administrators.
-Find and select Exchange Administrator.
-Click Add assignments > search for your app registration by name
+- Go to Entra ID > Roles and administrators.
+- Find and select Exchange Administrator.
+- Click Add assignments > search for your app registration by name
 (this requires the app to have a service principal - it's created
 automatically the first time you register it).
 Assign.
@@ -58,8 +60,8 @@ Without this step, `Connect-ExchangeOnline` may succeed but calls like
 `Get-EXOMailbox` can fail or return incomplete results.
 Summary of values you now have
 Variable	Where to find it
-`$Tenant`	Your tenant's `.onmicrosoft.com` domain
-`$TenantId`	App registration > Overview > Directory (tenant) ID
-`$ClientID`	App registration > Overview > Application (client) ID
-`$CertThumbprint`	Certificates & secrets > Certificates tab
-Plug these into `Scripts/MailboxQuotaReport.ps1` per the main README.
+ * `$Tenant`	Your tenant's `.onmicrosoft.com` domain
+* `$TenantId`	App registration > Overview > Directory (tenant) ID
+* `$ClientID`	App registration > Overview > Application (client) ID
+* `$CertThumbprint`	Certificates & secrets > Certificates tab
+- Plug these into `Scripts/MailboxQuotaReport.ps1` per the main README.
