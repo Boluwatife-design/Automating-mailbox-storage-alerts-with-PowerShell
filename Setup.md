@@ -13,7 +13,7 @@ Run
 This generates a self-signed
 certificate in your personal certificate store and exports the public `.cer` file.
 
-Full walkthrough: `Docs/CertificateSetup.md`
+Full walkthrough: `CertificateSetup.md`
 Note the Thumbprint printed by the script - you'll need it in Step 4.
 
 ## Step 3: Install the required PowerShell modules
@@ -37,7 +37,7 @@ user-profile path like OneDrive-redirected Documents.
 - Grant admin consent
 - Assign the app the Exchange Administrator role (via Entra ID roles, since
   `Exchange.ManageAsApp` alone isn't enough for full mailbox access)
-- Full walkthrough with screenshots: `https://github.com/Boluwatife-design/Automating-mailbox-storage-alerts-with-PowerShell/blob/147c05ecf97cd0fcba1468a59ef6040e7b51b810/AzureAppRegisteration.md`
+- Full walkthrough with screenshots: `AzureAppRegisteration.md`
 
 
 ## Step 5: Update the script variables
