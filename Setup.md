@@ -37,7 +37,7 @@ user-profile path like OneDrive-redirected Documents.
 - Grant admin consent
 - Assign the app the Exchange Administrator role (via Entra ID roles, since
   `Exchange.ManageAsApp` alone isn't enough for full mailbox access)
-- Full walkthrough with screenshots: `Docs/AzureAppRegistration.md`
+- Full walkthrough with screenshots: `AzureAppRegisteration.md`
 
 
 ## Step 5: Update the script variables
