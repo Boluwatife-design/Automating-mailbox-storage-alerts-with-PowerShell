@@ -73,7 +73,7 @@ Program/script	`powershell.exe`
 Add arguments	`-NoProfile -ExecutionPolicy Bypass -File "C:\Scripts\MailboxQuotaReport.ps1"`
 Start in	`C:\Scripts`
 Security option	Run whether user is logged on or not
-Full walkthrough with screenshots: `Docs/TaskScheduler.md`
+Full walkthrough with screenshots: `TaskScheduler.md`
 
 ## Logging
 All runs are logged to:
