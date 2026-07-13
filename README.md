@@ -47,3 +47,19 @@ MailboxQuotaReport.ps1  (main session)
 ```
 Graph is intentionally run inside a background job rather than in the main
 session. See Troubleshooting for why this matters.
+
+# Technologies
+- PowerShell (Windows PowerShell 5.1)
+- ExchangeOnlineManagement module
+- Microsoft.Graph.Authentication + Microsoft.Graph.Users.Actions modules
+- Microsoft Entra ID (App Registration, certificate auth)
+- Microsoft Graph API (Send-MgUserMail)
+- Windows Task Scheduler
+
+# Requirements
+- Microsoft 365 tenant with Exchange Online
+- An account with Exchange Administrator and Application Administrator (or Global
+  Administrator) rights to complete setup
+- A Windows machine to host the scheduled task (server or workstation, always on
+  at the time the task is scheduled to run)
+
