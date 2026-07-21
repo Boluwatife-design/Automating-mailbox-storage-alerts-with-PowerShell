@@ -273,4 +273,5 @@ Create a TXT document >> save in c:scripts as All files(file type)
     Write-Log "Finished."
     }
 
-<img width="1331" height="466" alt="Screenshot 2026-07-08 165620" src="https://github.com/user-attachments/assets/0d5ba6a8-a821-41ee-9cac-fa5ebe6aa688" />
+<img width="1916" height="316" alt="Screenshot 2026-07-08 172824" src="https://github.com/user-attachments/assets/0027a68d-9b1a-4f75-8c0f-a38cfddbb336" />
+
