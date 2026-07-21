@@ -37,7 +37,7 @@ user-profile path like OneDrive-redirected Documents.
 - Grant admin consent
 - Assign the app the Exchange Administrator role (via Entra ID roles, since
   `Exchange.ManageAsApp` alone isn't enough for full mailbox access)
-- Full walkthrough with screenshots: `AzureAppRegisteration.md`
+- Full walkthrough with screenshots: [`AzureAppRegisteration.md`](https://github.com/Boluwatife-design/Automating-mailbox-storage-alerts-with-PowerShell/blob/eafcf5c6a063686a2f444e6d927baf1749ff6c9e/AzureAppRegisteration.md)
 
 
 ## Step 5: Update the script variables
