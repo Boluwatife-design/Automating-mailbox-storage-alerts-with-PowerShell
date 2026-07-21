@@ -22,6 +22,7 @@ tab.
 - Once uploaded, confirm the Thumbprint shown matches the one printed by
 - the script - this is your `$CertThumbprint`.   
     <img width="1909" height="1100" alt="Screenshot 2026-07-08 102242" src="https://github.com/user-attachments/assets/67243483-6472-4b5e-96ef-b33bdd2ac49a" />
+    <img width="1188" height="652" alt="Screenshot 2026-07-08 164342" src="https://github.com/user-attachments/assets/b83449f5-969d-4668-a14c-b0a744a3d4fc" />
 
 # 3. Add API permissions
 - Go to API permissions > Add a permission.
@@ -34,7 +35,6 @@ tab.
 - Select Application permissions
 - Add Exchange.ManageAsApp
 
-<img width="1773" height="734" alt="Screenshot 2026-07-08 102536" src="https://github.com/user-attachments/assets/8cb192a0-a0ab-4bc6-9324-e61c00b448aa" />
 <img width="1705" height="512" alt="Screenshot 2026-07-08 102635" src="https://github.com/user-attachments/assets/593411cf-feff-4441-a007-688bb814c1a6" />
 <img width="1220" height="844" alt="Screenshot 2026-07-08 102724" src="https://github.com/user-attachments/assets/4d5f69ba-ed31-4fea-bede-3a560641cc2b" />
 
