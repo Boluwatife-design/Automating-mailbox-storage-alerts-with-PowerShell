@@ -51,10 +51,10 @@ $CertThumbprint = "your-certificate-thumbprint"
 $From = "admin@yourtenant.com"
 $To   = "admin@yourtenant.com"
 
-$ThresholdGB = 45
-$QuotaGB     = 50
+$ThresholdPercent = 90
 ```
-
+- Full walkthrough with screenshots: Scripts.md
+  
 ## Step 6: Test it manually
 ```powershell
 & "C:\Scripts\MailboxQuotaReport.ps1"
