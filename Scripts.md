@@ -7,13 +7,13 @@ Create a TXT document >> save in c:scripts as All files(file type)
     # ---------------------------
     # VARIABLES
     # ---------------------------
-    $Tenant = "linkorgnet.onmicrosoft.com"
-    $TenantId = "d6b7ed41-f4b2-4d1e-9e09-44e7b18d0cfa"
-    $ClientID = "0b55fe0a-2f09-48f3-97bf-0ba9803d7a01"
-    $CertThumbprint = "1F31B883E5877FC54E711ED98A1F885262F5A4B7"
+    $Tenant = "domain name"
+    $TenantId = "----------------------"
+    $ClientID = "----------------------------"
+    $CertThumbprint = "------------------------"
 
-    $From = "tolowoniyi@linkorgnet.com"
-    $To = "tolowoniyi@linkorgnet.com"
+    $From = "username@domain.com"
+    $To = "username@domain.com"
 
     $ThresholdGB = 45
     $QuotaGB = 50
