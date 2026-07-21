@@ -63,3 +63,16 @@ session. See Troubleshooting for why this matters.
 - A Windows machine to host the scheduled task (server or workstation, always on
   at the time the task is scheduled to run)
 
+# Author
+## Temitope Olowoniyi
+
+- Systems & Identity Engineer
+- Windows Server
+- Active Directory
+- Microsoft 365
+- Entra ID
+- PowerShell & Power automate Automation
+- Cloud Security
+- Server & Virtualization Administrator
+  
+LinkedIn: www.linkedin.com/in/temitopeolowoniyi
