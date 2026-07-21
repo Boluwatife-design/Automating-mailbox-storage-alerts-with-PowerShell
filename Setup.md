@@ -53,7 +53,7 @@ $To   = "admin@yourtenant.com"
 
 $ThresholdPercent = 90
 ```
-- Full walkthrough with screenshots: Scripts.md
+- Full walkthrough with screenshots: [Scripts.md](https://github.com/Boluwatife-design/Automating-mailbox-storage-alerts-with-PowerShell/blob/680852b250f3e84e28bb9ce4df0b6b916c38ae40/Scripts.md)
   
 ## Step 6: Test it manually
 ```powershell
