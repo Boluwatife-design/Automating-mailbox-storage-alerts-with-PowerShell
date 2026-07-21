@@ -7,12 +7,12 @@ control the expiry when you create it, e.g. 2 years).
 Run `Scripts/CreateSelfSignedCertificate.ps1`, or manually:
 ```powershell
 $Cert = New-SelfSignedCertificate `
-    -Subject "CN=MailboxQuotaReportCert" `
+    -Subject "CN=MailboxQuotaReportCert2" `
     -CertStoreLocation "Cert:\CurrentUser\My" `
     -KeyExportPolicy Exportable `
     -KeySpec Signature `
     -KeyLength 2048 `
-    -KeyAlgorithm RSA `
+    -Provider "Microsoft Enhanced RSA and AES Cryptographic Provider" `
     -HashAlgorithm SHA256 `
     -NotAfter (Get-Date).AddYears(2)
 
